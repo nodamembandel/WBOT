@@ -1,6 +1,6 @@
 {
   "name": "wbot",
-  "version": "0.60.0",
+  "version": "0.61.0",
   "description": "A simple whatsapp reply bot using puppeteer.",
   "main": "src/index.js",
   "scripts": {
@@ -50,7 +50,7 @@
     "puppeteer-core": "^13.6.0",
     "qrcode-terminal": "^0.12.0",
     "semver": "^7.3.5",
-    "whatsapp-web.js": "^1.25.0",
+    "whatsapp-web.js": "^1.32.0",
     "yargs": "^13.2.2"
   },
   "devDependencies": {
