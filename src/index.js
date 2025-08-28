@@ -168,6 +168,9 @@ async function Main() {
                     let extension = mime.getExtension(media.mimetype)
                     fs.writeFileSync(path.join(process.cwd(), "receivedMedia", msg.from + msg.id.id + "." + extension), media.data, 'base64')
                     console.log("Media has been downloaded");
+                    if (configs.appconfig.replyOnMedia) {
+                        sendReply({ msg, client, noMatch: true });
+                    }
                 } else {
                     console.log("There was an issue in downloading the media");
                 }

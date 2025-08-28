@@ -4,6 +4,7 @@
         "isGroupReply": false,
         "webhook": "",
         "downloadMedia": true,
+        "replyOnMedia": true,
         "replyUnreadMsg": false,
         "CustomInjectionFolder": "",
         "quoteMessageInReply": false,
